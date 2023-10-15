@@ -7,3 +7,10 @@ In my RESUME, all of my projects, work experience, technical skills, contacts an
 ```sh
 pdflatex main.tex
 ```
+
+## Screenshots
+
+<p align="center">
+    <img alt="page-1" src="" width="400">
+    <img alt="page-2" src="" width="400">
+</p>
