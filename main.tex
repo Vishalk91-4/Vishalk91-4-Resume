@@ -1,0 +1,391 @@
+%-------------------------
+% Resume in Latex
+% Author : Korada Vishal
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{left}
+
+    \textbf{\Huge \scshape Korada Vishal} \\ \vspace{3pt}
+    \resumeSubheading {
+    \color{blue}
+    \Large
+    {Indian Institute of Technology (BHU) Varanasi}
+    }
+    \small
+    \hspace{.}
+    
+    { \color{blue} \faAt} \hspace{.5pt} \href{mailto:kvishal3258@gmail.com}{kvishal3258@gmail.com}
+    \hspace{.5pt}
+    { \color{blue} \faGithub} \hspace{.1pt} \href{https://github.com/Vishalk91-4}{Vishalk91-4}
+    \hspace{.5pt}
+    { \color{blue} \faLinkedin} \hspace{.1pt} \href{https://www.linkedin.com/in/vishal-k-2865b6254}{Vishal-K}
+    \hspace{.5pt}
+    { \color{blue} \faGlobe} \hspace{.1pt} \href{https://vishalk91-4.github.io/CV/}{vishalk91-4.github.io}
+    \hspace{.5pt}
+    { \color{blue} \faPhone} \hspace{.1pt} \href{tel:8293426267}{+91 82934 26267}
+\end{left}
+
+
+%----------- EDUCATION -----------
+
+\section{ \color{blue} \Large Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    {
+    \resumeSubheading
+      {Indian Institute of Technology (BHU) Varanasi 
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{Varanasi, India}
+          {Undergraduate | Major, PHE   \textbf{CPI: 8.20/10.00}}{Oct 2022 \textbf{--} Present}
+          
+        $--------------------------------------------------------------$
+         
+       \resumeSubheading
+      {DAV MODEL SCHOOL IIT Kharagpur 
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{Kharagpur, India}
+      {XII, CBSE  \textbf{Percentage: 95.08}}{ May 2021}
+
+       $--------------------------------------------------------------$
+
+           \resumeSubheading
+      {Christopher Day School 
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{Kharagpur, India}
+      {X, ICSE  \textbf{Percentage: 91.60}}{ May 2019}
+
+       $--------------------------------------------------------------$
+
+  \resumeSubHeadingListEnd
+
+
+%----------- SKILLS -----------
+
+\section{ \color{blue} \Large Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Programming :}{ C/C++, C\#, Java, Python, Go, Rust, JavaScript, TypeScript, MySQL, MATLAB, R, Git, Bash, Docker, GitHub, PostgreSQL, PHP, HTML5, CSS, Image Processing, Natural Language Processing(NLP), Deep Learning(DL), Machne Learning(ML) } 
+        $--------------------------------------------------------------$
+        \textbf{Frameworks:}{ NextJS, ReactJS, VueJS, Astro, Django } 
+        $--------------------------------------------------------------$
+        
+        \textbf{Libraries:}{ OpenCV, Scikit-Learn, PyTorch, Keras, TensorFlow, NumPy, Pandas, Matplotlib, Seaborn, MongoDB} \\ \vspace{3pt}
+
+        
+        % \textbf{Frameworks}{: X, X, X} \\
+        % \textbf{Developer Tools}{: X, X, X} \\
+        % \textbf{Libraries}{: X, X, X} \\
+        % \textbf{Applications}{: X, X, X}
+    }}
+  \resumeSubHeadingListEnd
+
+    \vspace{5pt}
+
+%----------- WORK EXPERIENCE -----------
+
+\section{ \color{blue} \Large Work Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      { \color{blue} Sugar Labs}{Paris, France (Remote)}
+      {Student Developer}{June 2023 \textbf{--} Present}
+        \resumeItemListStart
+            \resumeItem{Currently working on the “Arçelik Digital Home Energy” project in a collaborative effort with DAI-Labor at the Technical University of Berlin under the supervision of Prof. Dr. Şahin Albayrak.}
+            \resumeItem{Simulated data exchange processes with the EEBUS protocol suite using C\# and Go frameworks. Converted the entire framework from Go to C++ in order to ensure future adaptability for smart home IoT devices.}
+        \resumeItemListEnd
+        $--------------------------------------------------------------$
+
+    \resumeSubheading
+      { \color{blue} Girl Script Summer of Code}{India (Remote)}
+      {Open Source Developer }{Apr 2023 \textbf{--} Aug 2023}
+        \resumeItemListStart
+            \resumeItem{Developed effective Turkish prompts for diverse AI tasks and maintained a high standard of prompt quality and consistency across different competencies, adhering to established guidelines and best practices.}
+            % \resumeItem{Reviewed, validated, and scored the AI assistant's responses to ensure they align with intended AI assistant behaviors and the AI assistant produces accurate and contextually appropriate responses to given prompts.}
+            \resumeItem{Engaged in collaborative meetings with cross-functional teams and project coordinators, actively seeking guidance, addressing queries, and collectively brainstorming strategies to generate higher quality prompts.}
+        \resumeItemListEnd
+
+    
+  \resumeSubHeadingListEnd
+
+    \vspace{5pt}
+
+    
+%----------- PROJECTS -----------
+
+\section{ \color{blue} \Large Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{ \color{blue} \small LFX Metrics*} $|$ \emph{\href{https://github.com/Vishalk91-4/LFXMM-Frontend}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{A project which provides Data about every Foundations which gets selected in Linux Foundation Mentorship in every term, gives every statistical data about it and provide a seamless experience for user, so that they don't get confused and can select the projects they want to work on depending upon their convinient Tech Stack or based on the Foundation.}
+            \resumeItem{The backend for this project has been made on Golang and the frontend on Astro, a lot of data was scrapped for each foundation, for this the DataBase Management System used is Postgre SQL.}
+          \resumeItemListEnd
+      $--------------------------------------------------------------$
+    
+      
+      \resumeProjectHeading
+        {\textbf{ \color{blue} \small NES EMULATOR*} $|$ \emph{\href{https://github.com/Vishalk91-4/nesemulator}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{A NES Emulator, with all the Operational Codes is built which can work on many devices simultaneously, the complete archietecture has been built from scratch, the MicroProcesser is also built in the same way}
+                \resumeItem{This project is not built using C++, rather being built using Rust, since it's a lot faster like being 100 times faster than C++ and like 10 times faster than Go.
+                This makes it more efficient and effective to work with.}
+          \resumeItemListEnd
+      $--------------------------------------------------------------$
+    
+      
+      \resumeProjectHeading
+        {\textbf{ \color{blue} \small ENV NPM Package*} $|$ \emph{\href{https://github.com/Vishalk91-4/npmenvpackage}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Publishing a NPM Package, which easily stores your API Key in dotenv file, when it is installed, using npm command, it checks using AI, whether the API Key is present or not and stores the same, asking if we want to store it in the same variable or rename to your choice.}
+          \resumeItemListEnd
+      $--------------------------------------------------------------$
+    
+      
+      \resumeProjectHeading
+        {\textbf{ \color{blue} \small Image Detection Tranformer*} $|$ \emph{\href{https://github.com/Vishalk91-4/imgtransformer}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{An image classifier that combines the power of Convolutional Neural Networks (CNNs) and Transformers to improve image recognition capabilities.}
+                \resumeItem{This model can classify images more accurately and can be a valuable tool for tasks like sorting images or detecting objects in a simple yet efficient manner.}
+                \resumeItem{Python with Keras for model development and deployment, and libraries like NumPy and Hugging Face Transformers for data preprocessing and transformer implementation.}
+          \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+    \vspace{5pt}
+    
+%----------- RESEARCH EXPERIENCE -----------
+
+%\section{ \color{blue} \Large Research Experience}
+  %\vspace{3pt}
+  %\resumeSubHeadingListStart
+  
+    %\resumeSubheading
+      %{ }
+      %{ }
+        %\resumeItemListStart
+            %\resumeItem{ .}
+            %\resumeItem{ .}
+            %\resumeItem{ .}
+        %\resumeItemListEnd
+
+    
+  %\resumeSubHeadingListEnd
+
+
+%----------- CERTIFICATES -----------
+
+% \section{Certificates}
+  % \resumeSubHeadingListStart
+    
+    % \resumeOrganizationHeading
+      % {Certificate Program}{Feb 2022}{Business Skills, Data and Digital Skills, Project Management and Personal Productivity}
+    
+  % \resumeSubHeadingListEnd
+
+
+%----------- Position of Responsibility -----------
+
+ \section{\color{blue} Position of Responsibility}
+  \resumeSubHeadingListStart
+    
+     \resumeOrganizationHeading
+       {Club of Programmers IIT BHU (COPS)}{Feb 2023 -- Present}{Software Development Guild CORE Team Member}
+       \vspace{{}}
+     \resumeOrganizationHeading
+           {Research Cell IIT BHU (RC)}{Jul 2023 -- Present}{AMA and Podcast Member}
+           \vspace{}
+     \resumeOrganizationHeading
+       {EntrepreneurShip Cell IIT BHU (E-Cell)}{Aug 2023 -- Present}{Tech Team Member}
+
+   \resumeSubHeadingListEnd
+\vspace{5pt}
+
+
+%----------- RELEVANT COURSEWORK -----------
+
+ \section{ \color{blue} \Large Coursework {\color{blue}}}
+   \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{        
+        \textbf{Major coursework:}{ Linear Alegebra, Introduction to Object-Oriented Programming, Data Structures and Algorithms, Computer Organization, Probability and Statistics}
+     }}
+    \small{\item{        
+        \textbf{Certification coursework:}{ Linear Algebra MIT EDX
+CS50 Harvard EDX
+Machine Learning Specialization - Coursera Andrew NG
+Deep Learning Specialization - Coursera Andrew NG
+Deep Learning Applications - Fast.AI}
+     }}
+   \resumeSubHeadingListEnd
+
+\vspace{9pt}
+
+
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+\section{ \color{blue} \Large Awards \& Achievements}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+
+        \textbf{JEE ADVANCED:}{ Top {1 percent} out of approx 2 million Applicants to get selected for IITs across the nation (Sep 2022} \\ \vspace{3pt}
+        \vspace{3pt}
+        \textbf{BRICSMATH:}{ Awarded to the winner of 4 International Online Mathematics Competition among students who have been ranked in the top 100 in INMO. (Dec 2020) \\ \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+    \vspace{3pt}
+
+    
+%----------- HOBBIES -----------
+
+% \section{Hobbies}
+  % \resumeSubHeadingListStart
+    % \small{\item{Swimming, Fitness, Eight-ball}}
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- REFERENCES -----------
+
+% \section{References}
+  % \resumeSubHeadingListStart
+    
+  % \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
