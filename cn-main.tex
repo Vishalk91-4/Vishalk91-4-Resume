@@ -1,0 +1,361 @@
+%-------------------------
+% Resume in Latex
+% Author : Korada Vishal
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{left}
+
+    \textbf{\Huge \scshape Korada Vishal} \\ \vspace{3pt}
+    \resumeSubheading {
+    \color{blue}
+    \Large
+    {Indian Institute of Technology (BHU) Varanasi}
+    }
+    \small
+    \hspace{.}
+    
+    { \color{blue} \faAt} \hspace{.5pt} \href{mailto:korada.vishal.phe22@itbhu.ac.in}{korada.vishal.phe22@itbhu.ac.in}
+    \hspace{.5pt}
+    { \color{blue} \faGithub} \hspace{.1pt} \href{https://github.com/Vishalk91-4}{Vishalk91-4}
+    \hspace{.5pt}
+    { \color{blue} \faLinkedin} \hspace{.1pt} \href{https://www.linkedin.com/in/vishal-k-2865b6254}{Vishal-K}
+    \hspace{.5pt}
+    { \color{blue} \faGlobe} \hspace{.1pt} \href{https://vishal91-4.co}{vishal91-4.co}
+
+
+%----------- EDUCATION -----------
+
+\section{ \color{blue} \Large Education}
+  \resumeSubHeadingListStart
+    {
+    \resumeSubheading
+      {Indian Institute of Technology (BHU) Varanasi 
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{Varanasi, India}
+          {Undergraduate | Major, PHE   \textbf{ SPI: 8.60/10.00}}{Oct 2022 \textbf{--} Present}    
+}
+  \resumeSubHeadingListEnd
+
+
+%----------- SKILLS -----------
+
+\section{ \color{blue} \Large Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Languages :}{ GoLang, Rust, C++20, Javascript, Python3, C#, C, HTML5, CSS} 
+        $--------------------------------------------------------------$
+        \textbf{HTTP APIs :}{ Express, Django, REST } 
+        $--------------------------------------------------------------$
+        \textbf{DevOps:}{ Docker, Git, Bash, CI/CD, Functions } 
+        $--------------------------------------------------------------$
+        \textbf{Frontend:}{ VueJS, ReactJS, Astro, Tailwind CSS, Flutter, Vite, Sass, NextJS}
+        $--------------------------------------------------------------$
+        \textbf{Libraries:}{ OpenCV, Scikit-Learn, PyTorch, Keras, TensorFlow, NumPy, Pandas, Matplotlib, MongoDB} \\ \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+%----------- WORK EXPERIENCE -----------
+
+\section{ \color{blue} \Large Work Experience}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      { \color{blue} Sugar Labs}{France (Remote)}
+      {Student Developer }{Jun 2023 \textbf{--} Apr 2024}
+        \resumeItemListStart
+            \resumeItem{Currently working on the “Sugarizer” project in a collaborative effort with SugarLabs under the supervision of Mentor Lionel Laske.}
+            % \resumeItem{Reviewed, validated, and scored the AI assistant's responses to ensure they align with intended AI assistant behaviors and the AI assistant produces accurate and contextually appropriate responses to given prompts.}
+            \resumeItem{Using Vue Js, for creating newer applications for future adaptibitiy, Converted the entire framework from webL10n to i18next, changing the sugarizer-server code to GO Frameworks with docker implementation.}
+        \resumeItemListEnd
+    \resumeSubheading
+      { \color{blue} GSSoC'23}{India (Remote)}
+      {Open Source Developer }{May 2023 \textbf{--} Aug 2023}
+        \resumeItemListStart
+            \resumeItem{Developed frameworks for ML apps like ImagineAI, improving standard of prompt quality and consistency across different competencies, adhering to established guidelines and best practices.}
+            % \resumeItem{Reviewed, validated, and scored the AI assistant's responses to ensure they align with intended AI assistant behaviors and the AI assistant produces accurate and contextually appropriate responses to given prompts.}
+            \resumeItem{Developed full app along with the image classification for large, medium and small sized images.}
+        \resumeItemListEnd
+
+    
+  \resumeSubHeadingListEnd
+
+    
+%----------- PROJECTS -----------
+
+\section{ \color{blue} \Large Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{ \color{blue} \small LFX Metrics} $|$ \emph{\href{https://github.com/Vishalk91-4/LFXMM-Frontend}{\color{blue}GitHub}}}{\emph{\href{https://lfx.netlify.app}{\color{blue}Link}}}
+          \resumeItemListStart
+            \resumeItem{A project which provides Data about every Foundations which gets selected in Linux Foundation Mentorship in every term, gives every statistical data about it and provide a seamless experience for user, so that they don't get confused and can select the projects they want to work on depending upon their convinient Tech Stack or based on the Foundation.}
+            \resumeItem{The backend for this project has been made on Golang and the frontend on Astro, a lot of data was scrapped for each foundation, for this the DataBase Management System used is Postgre SQL.}
+          \resumeItemListEnd
+      $--------------------------------------------------------------$
+    
+      
+      \resumeProjectHeading
+        {\textbf{ \color{blue} \small Route Optimization App Inter IIT} $|$ \emph{\href{https://github.com/Vishalk91-4/travel-saathi}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{An App where whenever we travel, we can connect with friends from that area before if we want to travel together}
+                \resumeItem{Using Convex Hull and other major algorithms we have create a route optimzation thing with which wherever we set the points for travel, it tells us the shortet possible path to reach there}
+          \resumeItemListEnd
+      $--------------------------------------------------------------$
+    
+      
+      \resumeProjectHeading
+        {\textbf{ \color{blue} \small GitHub Action*} $|$ \emph{\href{https://github.com/Vishalk91-4/festive-greeting-action}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Published a GitHub Action, which stores your TWILIO API Key, whenever the *.yml file is run, the user enters the phone number and name of the person along with the event, it automatically sends the message through open ai to greet the person for that festival or event, in bulk messages can also be sent by putting them in csv file .}
+          \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+    \vspace{5pt}
+    
+%----------- RESEARCH EXPERIENCE -----------
+
+%\section{ \color{blue} \Large Research Experience}
+  %\vspace{3pt}
+  %\resumeSubHeadingListStart
+  
+    %\resumeSubheading
+      %{ }
+      %{ }
+        %\resumeItemListStart
+            %\resumeItem{ .}
+            %\resumeItem{ .}
+            %\resumeItem{ .}
+        %\resumeItemListEnd
+
+    
+  %\resumeSubHeadingListEnd
+
+
+%----------- CERTIFICATES -----------
+
+% \section{Certificates}
+  % \resumeSubHeadingListStart
+    
+    % \resumeOrganizationHeading
+      % {Certificate Program}{Feb 2022}{Business Skills, Data and Digital Skills, Project Management and Personal Productivity}
+    
+  % \resumeSubHeadingListEnd
+
+%----------- RELEVANT Contributions -----------
+
+ \section{ \color{blue} \Large Open Source Contributions {\color{blue}}}
+   \vspace{2pt}
+  \resumeSubHeadingListStart
+      \resumeProjectHeading
+        {\textbf{ \color{blue} \small KCL/tree-sitter-kcl \vspace{8pt}} $$ \emph{\href{}{\color{blue}}}}{\emph{\href{https://github.com/kcl-lang/tree-sitter-kcl/pulls/Vishalk91-4}{\color{blue}PR Link}}}
+          \resumeItemListStart{\large \textbf{Added Syntax and test case supplementation for expression nodes}}
+            \resumeItem{ Implemented the addition of test cases and syntax as a part of LFX pretest. This feature now allows the parsing of types, expressions, assert, schema, statements}
+            \resumeItem{Added syntax for reserved words, Schema like the mixin, protocol, rule and check. For expressions, added syntax of Quantifier Expressions. Added Test cases for Basic, List, Dictionary, Schema, Union, Any types. Added Test cases for Assert statements if, error. Added Test Cases for if else, if elif else statements. Added Test Cases for Unary, Slice, Conditional, fucntion invocation expressions. Added Test cases for List and Dictionary Types}
+          \resumeItemListEnd
+      \resumeProjectHeading
+        {\textbf{ \color{blue} \small Kyverno/kyverno \vspace{8pt}} $$ \emph{\href{}{\color{blue}}}}{\emph{\href{https://github.com/kcl-lang/tree-sitter-kcl/pulls/Vishalk91-4}{\color{blue}PR Link}}}
+        \vspace{0.5pt}
+        {\large \textbf{ \hspace{20pt}Added test cases for forceMutate.go in engine package}}{\color{blue}\hspace{140pt}{Golang}}
+        \vspace{-4pt}
+          \resumeItemListStart
+            \resumeItem{ Added Policy and resources to the engine package, listed the spec rules i.e label, match and mutate. Added the Kyverno Cluster policy, it's resources and error codes in it.}
+            \resumeItem{Improved the code coverage from 52.0 to 77.1 .}
+          \resumeItemListEnd
+      \resumeProjectHeading
+        {\textbf{ \color{blue} \small Juspay/hyperswitch \vspace{8pt}} $$ \emph{\href{}{\color{blue}}}}{\emph{\href{https://github.com/juspay/hyperswitch/pulls/Vishalk91-4}{\color{blue}PR Link}}}
+      \vspace{0.5pt}
+        {\large \textbf{ \hspace{20pt}Enhanced currency Mapping with ConnectorCurrencyCommon Trait}}
+        \vspace{-4pt}{\color{blue}\hspace{60pt}{Rust}}
+
+          \resumeItemListStart
+            \resumeItem{ Implements the Connector trait for the Forte connector. This function allows connectors to declare their accepted currency unit as either Base or Minor. For Forte it accepts currency as Base units.}
+            \resumeItem{Payments being made using Forte and testing the currency unit from connector response and connector dashboard}
+          \resumeItemListEnd
+     \resumeProjectHeading
+        {\textbf{ \color{blue} \small SugarLabs/sugarizer \vspace{8pt}} $$ \emph{\href{}{\color{blue}}}}{\emph{\href{https://github.com/llaske/sugarizer/pulls/Vishalk91-4}{\color{blue}PR Link}}}
+      \vspace{0.5pt}
+        {\large \textbf{ \hspace{20pt}Improved the Test Coverage, Fixed the complete UI of 20+ activites}}{\color{blue}\hspace{60pt}{VueJS}}
+        \vspace{-4pt}
+
+          \resumeItemListStart
+            \resumeItem{ Migrated the base from webL10n to i18n, fixed the code for various device modes, fixed the errors while the execution of many games.}
+            \resumeItem{Involved in the building of v2 of Sugarizer Platform, enhanced the password manager, settings dashboard manager and Test coverage of it.}
+          \resumeItemListEnd
+%----------- RELEVANT COURSEWORK -----------
+
+ \section{ \color{blue} \Large Coursework {\color{blue}}}
+   \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{        
+        \textbf{Major coursework:}{ Linear Alegebra(MA-101), Introduction to Object-Oriented Programming(CSO-101), Operating System (CSO-231), Probability and Statistics(MA-202)}
+     }}
+    \small{\item{        
+        \textbf{Certification coursework:}{Introduction to DevOps and Site Reliability Engineering - The Linux Foundation, LinuxFoundationX: Introduction to Open Source Networking Technologies - The Linux Foundation}
+     }}
+   \resumeSubHeadingListEnd
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+\section{ \color{blue} \Large Awards \& Achievements}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+
+        \textbf{JEE ADVANCED:}{ Top {1 percent} out of approx 2 million Applicants to get selected for IITs across the nation (Sep 2022} \\ \vspace{3pt}
+        \vspace{3pt}
+        \textbf{BRICSMATH:}{ Awarded to the winner of 4 International Online Mathematics Competition among students who have been ranked in the top 100 in INMO. (Dec 2020) \\ \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+    \vspace{3pt}
+
+    
+%----------- HOBBIES -----------
+
+% \section{Hobbies}
+  % \resumeSubHeadingListStart
+    % \small{\item{Swimming, Fitness, Eight-ball}}
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- REFERENCES -----------
+
+% \section{References}
+  % \resumeSubHeadingListStart
+    
+  % \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
